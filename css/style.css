@@ -11,7 +11,7 @@ body{
     height: 100vh;
     margin: 0;
     transition: 0.5s linear;
-    background-color: rgb(192, 243, 243);
+    background-color: rgb(255, 255, 255);
 }
 
 body.dark{
@@ -40,9 +40,11 @@ body.dark{
     height: 26px;
     width: 50px;
     transform: scale(2);
+    border: 2px;
 }
 
 .ball{
+    border: 3px solid ;
     width: 26px;
     height: 26px;
     background: rgb(255, 255, 255);
@@ -51,7 +53,11 @@ body.dark{
     left: 0px;
     border-radius: 50px;
     transition: 0.3s linear;
+    resize: horizontal;
+    /* resize: vertical; */
 }
+
+
 
 
 .fa-moon-o{
@@ -60,4 +66,8 @@ body.dark{
 
 .fa-lightbulb-o{
     color: yellow;
+}
+
+.container{
+    border: 2px solid yellow;
 }
